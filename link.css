@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid red;
+}
+
+.top_header{
+    /* width: 80%; */
+    border: 2px solid green;
+    height: 50px;
+    background-color: black;
+}
+.list_items{
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.list_items>li{
+    display: inline;
+    padding: 18px;
+}
+.list_items>li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.list_items>li a:link{
+    color: rgb(9, 244, 33);
+}
+.list_items>li a:visited{
+    color: rgb(211, 240, 16);
+}
+.list_items>li a:hover{
+    color: rgb(88, 184, 211);
+}
+
+.list_items>li a:active{
+    color: rgb(12, 3, 111);
+}
