@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex_container{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box1,.box3{
+    border: 2px solid green;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.box2{
+    border: 2px solid blue;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.box3{
+    border: 2px solid grey;
+    height: 100px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+}
+
+.box-2{
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+}
