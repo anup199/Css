@@ -1,0 +1,28 @@
+/* a:link{
+    color: rgb(2, 35, 48);
+}
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: olive;
+}
+a:active{
+    color: rgb(255, 17, 0);
+} */
+
+.list_item{
+    list-style-type: none;
+    background-color: aqua;
+    padding: 10px;
+    text-align: center;
+}
+
+.list_item>li{
+    display: inline;
+}
+
+.list_item>li a{
+    padding: 10px;
+    text-decoration: none;
+}
