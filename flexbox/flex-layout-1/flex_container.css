@@ -14,19 +14,19 @@
 }
 
 .box1,.box3{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     height: 100px;
     display: flex;
     justify-content: space-between;
 }
 .box2{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     height: 100px;
     display: flex;
     justify-content: center;
 }
 .box3{
-    border: 2px solid grey;
+    /* border: 2px solid grey; */
     height: 100px;
 }
 
