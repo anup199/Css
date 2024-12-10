@@ -9,34 +9,20 @@
     height: 100vh;
     width: 100vw;
 
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: end;
     flex-wrap: wrap;
-    align-content: flex-start;
+    align-content: start; */
 
 
     /* display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center; */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-content: start;
+justify-content: center;
+   align-items: center; */
 
 /*
     display: flex;
@@ -53,8 +39,9 @@
 
     flex-flow: row wrap;
 
-}
+
     */
+ }
 .box{
     height: 100px;
     width: 100px;
