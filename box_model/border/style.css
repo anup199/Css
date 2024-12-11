@@ -1,0 +1,15 @@
+.container{
+    /* border-style: solid;
+    border-color: red;
+    border-width: 15px; */
+    border: 2px solid red;
+    background-color: blue;
+    color: wheat;
+    text-align: center;
+}
+
+h1{
+    border: 3px solid whitesmoke;
+    margin: 5px;
+    padding: 20px;
+}
