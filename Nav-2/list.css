@@ -1,28 +1,75 @@
-/* a:link{
+/* a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+a:link {
     color: rgb(2, 35, 48);
 }
-a:visited{
+
+a:visited {
     color: blue;
 }
-a:hover{
+
+a:hover {
     color: olive;
 }
-a:active{
+
+a:active {
     color: rgb(255, 17, 0);
 } */
 
-.list_item{
+.list_item {
     list-style-type: none;
     background-color: aqua;
     padding: 10px;
     text-align: center;
+    display: flex;
+    justify-content: space-around;
 }
 
-.list_item>li{
-    display: inline;
+
+.list_item > li {
+    margin: 0 10px;
+    position: relative; /* Add this to position the sublist correctly */
 }
 
-.list_item>li a{
+.list_item > li a {
+    padding: 10px;
+    /* transition: background-color 0.3s ease; */
+}
+
+.list_item > li a:hover {
+    background-color: #ccc;
+}
+
+
+/* html sublist item */
+.sub_list {
+    list-style-type: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    display: none; /* Keep this to hide the sublist by default */
+}
+
+.sub_list > li {
+    padding: 12px 16px;
+}
+
+.sub_list > li a {
     padding: 10px;
     text-decoration: none;
+    display: block;
+}
+
+.sub_list > li a:hover {
+    background-color: #ccc;
+}
+
+/* Show the sublist when hovering over the parent li */
+
+.list_item > li:hover .sub_list {
+    display: block;
 }
