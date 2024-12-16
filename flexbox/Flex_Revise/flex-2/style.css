@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    border: 5px solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center ;
+}
+
+.container>div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+    margin: 5px;
+}

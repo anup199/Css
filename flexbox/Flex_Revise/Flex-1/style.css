@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid red;
+    height: 100vh;
+}
+.head{
+    border: 2px solid green;
+    height: 100px;
+}
+.hero_section{
+    border: 2px solid blue;
+    height: 500px;
+    display: flex;
+}
+
+.aside{
+    border: 2px solid yellow;
+    height: 100%;
+    width: 650px;
+}
+.article{
+    border: 2px solid green;
+    height: 100%;
+    width: 650px;
+}
