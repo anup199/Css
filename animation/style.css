@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    border: 2px solid red;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    background-color: black; */
+}
+
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(158, 19, 19);
+    border-radius: 10px;
+
+    /* animation-name: border-radius;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1); */
+}
+
+
+/* @keyframes border-radius{
+
+    25%{
+        border-top-right-radius: 100px;
+        box-shadow: 10px 10px 10px rgba(158, 3, 78, 0.896);
+    }
+    25%{
+        border-bottom-right-radius: 100px;
+        box-shadow: 10px 10px 10px rgba(229, 5, 249, 0.896);
+    }
+    25%{
+        border-bottom-left-radius: 100px;
+    }
+    25%{
+        border-top-left-radius: 100px;
+    }
+} */
+
+
+.roller{
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(32, 1, 170);
+    position: relative;
+
+    animation-name: roller;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+}
+
+@keyframes roller{
+    from{
+        left: 10px;
+        top: 10px;
+    }
+    to{
+        left: 1200px;
+        top: 10px;
+    }
+}
+
+
+
+
