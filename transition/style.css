@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid green;
+    transition-delay: 2s;
+    transition-duration: 5s all;
+    transition-timing-function: linear;
+    /* transition-property: width , height; */
+
+}
+
+
+/* transition
+transition-delay
+transition-duration
+transition-property
+transition-timing-function */
+
+.box:hover{
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    
+}
+
+
+
+
+
+
+/* visit to get layouts of animation */
+/* https://web.dev/learn/css/transitions */
