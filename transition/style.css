@@ -11,14 +11,16 @@
     width: 100vw;
 }
 
+
 .box{
     height: 100px;
     width: 100px;
     border: 2px solid green;
-    transition-delay: 2s;
-    transition-duration: 5s all;
-    transition-timing-function: linear;
-    /* transition-property: width , height; */
+    background-color: aqua;
+    transition-delay: 1s;
+    /* transition-duration: 3s,5s;
+    transition-property: width,height; */
+    transition: 2s all;
 
 }
 
@@ -31,8 +33,8 @@ transition-timing-function */
 
 .box:hover{
     background-color: red;
-    height: 400px;
-    width: 400px;
+    height: 200px;
+    width: 200px;
     
 }
 
