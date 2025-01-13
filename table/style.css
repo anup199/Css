@@ -1,0 +1,51 @@
+/* :root{
+    --myfavColor:#2895e9;
+    --myFontSize:20px;
+    --center:Center;
+}
+h1{
+    text-align: var(--center);
+    font-size: var(--myFontSize);
+    background-color: var(--myfavColor);
+} */
+
+
+
+table{
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 600px;
+    /* border-collapse: collapse; */
+    /* padding: 10px; */
+}
+td{
+    /* border: 2px solid blue; */
+}
+.orange{
+    background-color: orange;
+    text-align: center;
+    font-size: 20px;
+    color: aqua;
+}
+
+tr,td{
+    border-bottom: 2px solid red;
+}
+
+/* even
+odd
+2a+b */
+tr:hover:nth-child(even)
+{
+    background-color: blanchedalmond;
+}
+
+tr:hover:nth-child(odd)
+{
+    background-color: blue;
+    color: wheat;
+}
+
+/* .green{
+    background-color: var(--myfavColor);
+} */
