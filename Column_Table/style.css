@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    /* column-span: all; */
+}
+.newspaper{
+    border: 2px solid red;
+    column-count: 5;
+    column-gap: 50px;
+    column-rule-style: double;
+    column-rule-color: blue;
+    column-rule-width: 10px;
+    column-width: 100px;
+}
