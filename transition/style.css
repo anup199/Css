@@ -17,9 +17,9 @@
     width: 100px;
     border: 2px solid green;
     background-color: aqua;
-    transition-delay: 1s;
+    /* transition-delay: 1s; */
     /* transition-duration: 3s,5s;
-    transition-property: width,height; */
+    transition-property: width,height;  */
     transition: 2s all;
 
 }
