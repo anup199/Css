@@ -7,9 +7,9 @@
 .container{
     height: 100vh;
     width: 100vw;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 
 }
 
@@ -18,16 +18,19 @@
     background-color: beige;
     width: 100px;
     height: 100px;
-    position: relative;
+    border-radius: 100%;
+    position: absolute;
     left: 10px;
     top: 10px;
 
-    /* transform: translate(120px); */
-    /* transform: rotateY(45deg) ; */
+    /* transform: translate(200px); */
+    /* transform: rotateX(45deg) ; */
     /* transform: scale(5,1); */
     /* transform: skewY(45deg); */
+    transform: matrix();
 
-    animation-name: roller_coster;
+
+    animation-name: cycle;
     animation-duration: 5s;
     animation-iteration-count: 4;
     animation-fill-mode: forwards;
@@ -36,14 +39,18 @@
 
 
 
-@keyframes roller_coster{
+@keyframes cycle{
     from{
-        /* transform: rotateY(0deg) rotateX(0deg) ; */
+        transform: rotateY(0deg) ;
+        left: 10px;
+        top: 10px;
         transform: skewX(0deg);
     }
     to{
-        /* transform: rotateY(10deg) rotateX(360deg) rotateZ(80deg); */
-        transform: skewX(360deg);
+        /* transform: rotateZ(360deg); */
+        left: 500px;
+        top: 10px;
+        transform: skewX(60deg);
     }
 
-}
+} 
